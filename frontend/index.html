@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Task Manager</h1>
+
+        <div class="login-section" id="loginSection">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div class="task-section" id="taskSection" style="display: none;">
+            <div class="task-form">
+                <input type="text" id="taskInput" placeholder="Enter new task">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+
+            <div class="filters">
+                <button onclick="filterTasks('all')">All</button>
+                <button onclick="filterTasks('completed')">Completed</button>
+                <button onclick="filterTasks('pending')">Pending</button>
+            </div>
+
+            <div class="task-list" id="taskList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

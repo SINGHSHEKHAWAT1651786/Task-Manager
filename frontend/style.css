@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Input and Button Styles */
+input, button {
+    width: calc(100% - 1px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #25e9f0;
+}
+
+/* Task Item Styles */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.filters button {
+    width: 32%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background: #29fcce;
+}
+
+/* Completed Task Styling */
+.completed {
+    text-decoration: line-through;
+    color: rgb(214, 14, 14);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .filters {
+        flex-direction: column;
+    }
+
+    .filters button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
