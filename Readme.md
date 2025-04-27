@@ -17,7 +17,7 @@ Persistent data stored locally (JSON file database)
 
 🛠️ Project Structure
 
-taskmanager/
+Task-Manager/
 ├── backend/
 │   ├── server.js
 │   ├── controllers/
