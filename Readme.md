@@ -39,6 +39,7 @@ Clone the repository
 
 
 git clone https://github.com/your-username/taskmanager.git
+
 cd taskmanager
 
 Install dependencies
