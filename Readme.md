@@ -1,4 +1,4 @@
-📝 Task Manager App
+📝 Task Manager App(HTML, CSS, Vanilla JS)
 
 A simple Task Manager web application with user authentication built using Node.js, Express.js, and vanilla JavaScript (frontend and backend).
 
